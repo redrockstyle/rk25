@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\driver.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dispatch\ioctl\rk25_dispatcher.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\common\system\syscall\rk25_syscall.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\common\system\switcher\rk25_switcher.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\common\system\kernel\rk25_kernel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\process\hide\rk25_hide_proc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\list\rk25_list.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\common\dkom\proc\rk25_dkom_process.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\process\priv\rk25_priv_process.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\process\callback\rk25_callback.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\common\hook\ntqsi\rk25_hook_ntqsi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\common\hook\nttp\rk25_hook_nttp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\process\rk25_proc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\common\hook\net\rk25_hook_net.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\net\hide\rk25_hide_net.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evilcase\net\rk25_net.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\net\rk25_net_convert.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\dispatch\ioctl\rk25_dispatcher.h" />
+    <ClInclude Include="src\common\rk25_ioctl.h" />
+    <ClInclude Include="src\common\rk25_dbg.h" />
+    <ClInclude Include="src\common\rk25_def.h" />
+    <ClInclude Include="src\evilcase\common\system\syscall\rk25_syscall.h" />
+    <ClInclude Include="src\evilcase\common\system\switcher\rk25_switcher.h" />
+    <ClInclude Include="src\evilcase\common\system\kernel\rk25_kernel.h" />
+    <ClInclude Include="src\evilcase\process\hide\rk25_hide_proc.h" />
+    <ClInclude Include="src\common\list\rk25_list.h" />
+    <ClInclude Include="src\evilcase\common\dkom\proc\rk25_dkom_process.h" />
+    <ClInclude Include="src\evilcase\process\priv\rk25_priv_process.h" />
+    <ClInclude Include="src\evilcase\process\callback\rk25_callback.h" />
+    <ClInclude Include="src\evilcase\common\hook\ntqsi\rk25_hook_ntqsi.h" />
+    <ClInclude Include="src\evilcase\common\hook\nttp\rk25_hook_nttp.h" />
+    <ClInclude Include="src\evilcase\process\rk25_proc.h" />
+    <ClInclude Include="src\evilcase\common\hook\net\rk25_hook_net.h" />
+    <ClInclude Include="src\evilcase\net\hide\rk25_hide_net.h" />
+    <ClInclude Include="src\evilcase\net\rk25_net.h" />
+    <ClInclude Include="src\common\net\rk25_net_convert.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="src\evilcase\common\system\kernel\cr0x64.asm">
+      <Filter>src</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
