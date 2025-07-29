@@ -1,4 +1,6 @@
 old
+*.docx
+*.doc
 *.exe
 *.sys
 *.lib
